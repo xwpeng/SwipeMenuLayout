@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.xwpeng.swipemenulayout.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_swipe_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <RelativeLayout
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        >
+        <!--android:background="?android:colorBackground"-->
+        <TextView
+            android:id="@+id/item_int_list_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="index"
+            />
+
+        <TextView
+            android:id="@+id/item_int_list_deleteview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/item_menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#ff0000"
+        android:text="menu1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/item_menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#00ff00"
+        android:text="menu2"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/item_menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#0000ff"
+        android:text="menu3"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        />
+
+
+</android.xwpeng.swipemenulayout.SwipeMenuLayout>
